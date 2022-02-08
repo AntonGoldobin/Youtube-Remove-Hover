@@ -1,6 +1,6 @@
 {
 	"name": "Hello, World!",
-	"description": "This youtube extention is removing hover resize on videos",
+	"description": "This is an youtube extension for removing the hovering resize on videos",
 	"version": "1.0",
 	"manifest_version": 3,
 	"background": {
