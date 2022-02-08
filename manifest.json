@@ -1,0 +1,19 @@
+{
+	"name": "Hello, World!",
+	"description": "This youtube extention is removing hover resize on videos",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_icon": {
+			"16": "16.png",
+			"32": "32.png",
+			"48": "48.png",
+			"128": "128.png"
+		}
+	},
+	"permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
+	"host_permissions": ["https://www.youtube.com/", "http://localhost:4100/*"]
+}
