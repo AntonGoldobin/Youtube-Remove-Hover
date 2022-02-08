@@ -15,5 +15,5 @@
 		}
 	},
 	"permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
-	"host_permissions": ["https://www.youtube.com/", "http://localhost:4100/*"]
+	"host_permissions": ["https://www.youtube.com/"]
 }
